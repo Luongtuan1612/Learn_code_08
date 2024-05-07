@@ -15,14 +15,34 @@
 a{
     text-decoration: none;
 }
-#header nav a{
-    color: rgb(185,131,31);
+
+#header nav a {
+    color: rgb(185, 131, 31);
     font-size: 1.25rem;
 }
-#header nav a:hover{
+
+#header nav a:hover {
     color: yellow;
-   
 }
-#boc{
+
+ul {
     display: flex;
+    padding: 10px;
+}
+
+ul li a {
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+#boc {
+    display: flex;
+}
+
+img {
+    height: 15rem;
+    width: 100%;
 }
